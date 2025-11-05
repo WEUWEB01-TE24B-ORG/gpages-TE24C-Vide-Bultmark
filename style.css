@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Rye&display=swap');
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+färger
+https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
+*/
+
+/* webbsidans utseende */
+body
+{
+background-image: url(./bilder/leaves-seamless-6729056_1280.webp);
+background-attachment: fixed;
+background-size: 700px;
+}
+
+div.kontainer
+{
+background-color: #fefae0dd;
+border: solid 15px #606C38;
+width: 700px;
+padding: 30px;
+margin: auto;
+margin-top: 50px;
+color: #283618;
+font-family: "Crimson Text", serif;
+margin-bottom: 50px;
+border-radius: 20px;
+box-shadow: #283618 5px 5px 10px;
+}
+
+h1
+{
+font-family: "Rye", serif;
+margin-bottom: 20px;
+}
+
+img
+{
+border: solid #BC6C25 10px;
+box-shadow: 5px 5px 10px;
+width: 300px;
+margin-bottom: 30px;
+}
+
+p
+{
+font-size: 18px;
+}
+
+h2
+{
+font-family: "Rye", serif;
+margin-bottom: 10px;
+}
+
+ul
+{
+margin-left: 40px;
+list-style-type:circle;
+margin-bottom: 10px;
+}
+
+li
+{
+font-size: 18px;
+}
+
+a
+{
+color: #606C38;
+}
